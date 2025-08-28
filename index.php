@@ -4,10 +4,7 @@
  * Este archivo carga el formulario con una imagen captcha.
  * Además, incluye los scripts JavaScript para manejar las peticiones AJAX
  * y actualizar dinámicamente el código de seguridad.
- *
- * @link https://github.com/mroblesdev
- * @author mroblesdev
- */
+ **/
 
 session_start();
 
@@ -52,6 +49,8 @@ include_once 'funcs/funcs.php';
                 <input type="text" name="nombre" class="form-control">
             </div>
 
+            
+
             <div class="mb-3">
                 <label for="codigo" class="form-label">Código de verificación</label>
                 <input type="text" name="codigo" class="form-control" placeholder="Ingresa el texto de la imagen">
@@ -78,7 +77,7 @@ include_once 'funcs/funcs.php';
     <footer class="footer mt-auto py-3 bg-body-tertiary">
         <div class="container text-center">
             <span class="text-body-secondary">
-                Desarrollador por <a href="https://github.com/mroblesdev/generador-captcha-php">MRoblesDev</a>
+                
             </span>
         </div>
     </footer>

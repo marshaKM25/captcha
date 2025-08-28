@@ -3,10 +3,7 @@
 /**
  * Este archivo contiene funciones auxiliares utilizadas en diversas partes
  * del sistema para la manipulación de sesiones y redirección de páginas.
- *
- * @link https://github.com/mroblesdev
- * @author mroblesdev
- */
+ **/
 
 if (!function_exists('setFlashData')) {
     /**

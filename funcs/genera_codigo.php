@@ -4,10 +4,7 @@
  * Script PHP para generar una imagen de verificación con un código aleatorio y mostrarla en el navegador.
  * Este script utiliza la biblioteca GD para crear la imagen con texto, líneas y puntos aleatorios.
  * El código generado se almacena en la sesión para su posterior verificación.
- *
- * @link https://github.com/mroblesdev
- * @author mroblesdev
- */
+ **/
 
 // Iniciar la sesión para almacenar el código de verificación
 session_start();

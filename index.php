@@ -49,7 +49,10 @@ include_once 'funcs/funcs.php';
                 <input type="text" name="nombre" class="form-control">
             </div>
 
-            
+            <div class="mb-3">
+                <label for="contraseña" class="form-label">Contraseña</label>
+                <input type="password" name="contraseña" class="form-control">
+            </div>
 
             <div class="mb-3">
                 <label for="codigo" class="form-label">Código de verificación</label>
